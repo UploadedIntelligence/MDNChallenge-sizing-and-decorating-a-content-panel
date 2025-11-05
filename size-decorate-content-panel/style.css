@@ -60,6 +60,7 @@ h1,
     background: #eeeeff url("https://mdn.github.io/shared-assets/images/examples/big-star.png") no-repeat right 15px top 5px;
     background-size: 40px 40px;
     border-radius: 10px;
+    overflow: scroll;
 }
 
 .controls {
