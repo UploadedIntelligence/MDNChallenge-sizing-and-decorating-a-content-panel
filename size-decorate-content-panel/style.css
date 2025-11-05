@@ -71,6 +71,11 @@ button {
     flex: 1;
     height: 100%;
     font-size: 1.2em;
+    color: white;
+    background: rgb(40 88 123 / 0.8);
+    &:hover, &:focus {
+        background: rgb(40 88 123 / 1);
+    }
 }
 
 h1::before {
