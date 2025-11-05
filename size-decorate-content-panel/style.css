@@ -57,6 +57,8 @@ h1,
     height: calc(100vh - 160px);
     padding: 0 20px;
     border: 2px solid #28587b;
+    background: #eeeeff url("https://mdn.github.io/shared-assets/images/examples/big-star.png") no-repeat right 15px top 5px;
+    background-size: 40px 40px;
 }
 
 .controls {
