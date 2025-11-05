@@ -38,6 +38,7 @@ a:focus {
 
 .pane {
     height: 100%;
+    width: clamp(480px, 60% ,1000px);
 }
 
 h1,
