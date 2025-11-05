@@ -59,6 +59,7 @@ h1,
     border: 2px solid #28587b;
     background: #eeeeff url("https://mdn.github.io/shared-assets/images/examples/big-star.png") no-repeat right 15px top 5px;
     background-size: 40px 40px;
+    border-radius: 10px;
 }
 
 .controls {
@@ -73,6 +74,7 @@ button {
     font-size: 1.2em;
     color: white;
     background: rgb(40 88 123 / 0.8);
+    border-radius: 10px;
     &:hover, &:focus {
         background: rgb(40 88 123 / 1);
     }
