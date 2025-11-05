@@ -10,16 +10,19 @@ html {
 
 body {
     height: inherit;
-    font: 1.2em / 1.5 system-ui;
+    /*font: 1.2em / 1.5 system-ui;*/
+    font-size: clamp(1em, 0.8em + 0.35vw, 1.25em);
+    font-family: system-ui;
+    line-height: 1.5;
     margin: 0 auto;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: clamp(1.5em, 1em + 2vw, 2.5em);
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: clamp(1.25em, 1em + 1.5vw, 2em);
 }
 
 a {
