@@ -40,6 +40,7 @@ a:focus {
     height: 100%;
     width: clamp(480px, 60% ,1000px);
     margin: auto;
+    padding: 0 20px;
 }
 
 h1,
@@ -53,6 +54,7 @@ h1,
 
 .content {
     height: calc(100vh - 160px);
+    padding: 0 20px;
 }
 
 .controls {
