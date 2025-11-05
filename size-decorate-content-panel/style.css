@@ -41,6 +41,7 @@ a:focus {
     width: clamp(480px, 60% ,1000px);
     margin: auto;
     padding: 0 20px;
+    background: linear-gradient(#9fb4c7, #7f7caf);
 }
 
 h1,
